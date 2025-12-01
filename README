@@ -1,1 +1,32 @@
-test
+# so_long
+
+**so_long** is the first graphical project from the 42 curriculum.  
+The goal is to create a small 2D game using the MiniLibX graphics library.
+
+The player moves inside a 2D map defined in a `.ber` file, must collect every coin on the map, and then reach the exit to win.
+
+---
+
+## 🎮 Features
+
+- 2D tile-based map loaded from a `.ber` file  
+- Player movement (up, down, left, right)  
+- Collectible coins scattered around the map  
+- Exit door that opens only when all coins are collected  
+- Basic enemies (optional bonus)  
+- Move counter displayed in the terminal  
+- Simple sprite rendering using **MiniLibX**
+
+---
+
+## 🗺️ Map Format (`.ber` files)
+
+The map is composed of characters:
+
+| Character | Meaning        |
+|----------|----------------|
+| `1`      | Wall           |
+| `0`      | Empty floor    |
+| `C`      | Collectible    |
+| `P`      | Player start   |
+| `E`      | Exit door      |
